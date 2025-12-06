@@ -1,11 +1,11 @@
-export default function RootLayout({
+export default function HomeLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
-      <body>루트 레이아웃{children}</body>
+      <body>홈 레이아웃{children}</body>
     </html>
   );
 }
