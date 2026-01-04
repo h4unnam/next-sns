@@ -1,11 +1,10 @@
-export default function HomeLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+import {ReactNode} from "react";
+
+export default async function HomeLayout({children}: { children: ReactNode }) {
   return (
-    <div lang="en">
-      <body>홈 레이아웃{children}</body>
+    <div>
+      홈 레이아웃
+      {children}
     </div>
   );
 }

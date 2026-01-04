@@ -1,3 +1,7 @@
-export default function HomePage() {
-  return <div>홈 페이지입니다.</div>;
+export default function Home() {
+  return (
+    <main>
+      홈페이지
+    </main>
+  )
 }
